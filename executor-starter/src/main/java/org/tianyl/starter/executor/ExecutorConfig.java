@@ -1,4 +1,4 @@
-package com.tianyl.starter.executor;
+package org.tianyl.starter.executor;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.Executor;
@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class TaskExecutorConfig {
+public class ExecutorConfig {
 
 	@Value("${core.pool.size:10}")
 	private int corePoolSize;

@@ -9,6 +9,7 @@
 
 	<modules>
 		<module>executor-starter</module>
+		<module>mybatis-starter</module>
 	</modules>
 
 	<properties>
@@ -65,17 +66,17 @@
 		</plugins>
 	</build>
 
-<!-- 	<distributionManagement> -->
-<!-- 		<repository> -->
-<!-- 			<id>releases</id> -->
-<!-- 			<name>UFenQi Release Repository</name> -->
-<!-- 			<url>http://182.92.188.224:8081/nexus/content/repositories/releases/</url> -->
-<!-- 		</repository> -->
-<!-- 		<snapshotRepository> -->
-<!-- 			<id>snapshots</id> -->
-<!-- 			<name>UFenQi Snapshot Repository</name> -->
-<!-- 			<url>http://182.92.188.224:8081/nexus/content/repositories/snapshots/</url> -->
-<!-- 		</snapshotRepository> -->
-<!-- 	</distributionManagement> -->
+	<distributionManagement>
+		<repository>
+			<id>releases</id>
+			<name>UFenQi Release Repository</name>
+			<url>http://182.92.188.224:8081/nexus/content/repositories/releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>UFenQi Snapshot Repository</name>
+			<url>http://182.92.188.224:8081/nexus/content/repositories/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 </project>
