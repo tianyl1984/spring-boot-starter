@@ -1,3 +1,4 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
 org.tianyl.starter.mybatis.MybatisAutoConfiguration
-#org.tianyl.starter.mybatis.MapperScannerConfigurer
+org.springframework.context.ApplicationContextInitializer=\
+org.tianyl.starter.mybatis.MybatisApplicationContextInitializer

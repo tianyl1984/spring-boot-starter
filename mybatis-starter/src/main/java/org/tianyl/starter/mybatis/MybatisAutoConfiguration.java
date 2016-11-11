@@ -19,7 +19,7 @@ import tk.mybatis.spring.mapper.MapperScannerConfigurer;
 @Configuration
 public class MybatisAutoConfiguration {
 
-	@Bean
+	// @Bean
 	public MapperScannerConfigurer mapperScannerConfigurer() {
 		MapperScannerConfigurer configurer = new MapperScannerConfigurer();
 		configurer.setBasePackage("com.tianyl");
